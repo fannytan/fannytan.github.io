@@ -39,7 +39,7 @@ body {
 
 #myname {
     padding-top: 40px;
-    color: rgb(147, 40, 49);
+    color: #932831;
     font-size: 45px;
     font-weight: 300;
     text-transform: uppercase;
@@ -67,10 +67,15 @@ a:link{
 
 a:visited{
     text-decoration: none;
+    color: #1D1D1D;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+a.currentlink{
+    color:#932831;
 }
 
 #maincontainer{
@@ -100,7 +105,8 @@ a:hover{
     top:98px;
     width: 100%;
     padding-left: 10%;
-    padding-right: 10%;  
+    padding-right: 10%;
+    opacity:0;  
 }
 
 .projecttitle{
@@ -115,5 +121,8 @@ a:hover{
     font-size: 24px;
 }
 
+.project:hover .projectinfo{
+    opacity: 1;
+}
 
 
