@@ -26,7 +26,7 @@ time, mark, audio, video {
 body {
     background-color: rgb(253, 253, 253);
     color: #1D1D1D; 
-    font-family:futura book, sans-serif;
+    font-family:Futura book, sans-serif;
     max-width: 938px;
     margin: auto;
 }
@@ -54,7 +54,7 @@ body {
 #navigationbar {
     font-size: 20px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     width: 65%;
@@ -74,21 +74,46 @@ a:hover{
 }
 
 #maincontainer{
-    display: inline;
+    max-width: 938px;
+    margin: auto;
 }
 
 .project{
-    
+    width: 450px;
+    height: 272px;
+    position: relative;
+    margin: auto;   
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 12px;
+
+}
+
+.thumbnail{
+    width: 450px;
+    height: 272px;
+}
+
+.projectinfo{
+    /*background-color: yellow;*/
+    position: absolute;
+    top:98px;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;  
 }
 
 .projecttitle{
-    background-color: yellow;
+    /*background-color: orange;*/
+    display: block;
+    padding-bottom: 20px;
 }
 
 .projectvalueprop{
-    background-color: orange;
+    /*background-color: purple;*/
+    display: block;
+    font-size: 24px;
 }
-.thumbnail{
-    width: 500px;
-    height: 272px;
-}
+
+
+
