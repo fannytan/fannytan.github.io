@@ -55,5 +55,9 @@ body {
     font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
 }
 
