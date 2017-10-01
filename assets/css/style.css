@@ -72,3 +72,23 @@ a:visited{
 a:hover{
     text-decoration: underline;
 }
+
+#maincontainer{
+    display: inline;
+}
+
+.project{
+    
+}
+
+.projecttitle{
+    background-color: yellow;
+}
+
+.projectvalueprop{
+    background-color: orange;
+}
+.thumbnail{
+    width: 500px;
+    height: 272px;
+}
