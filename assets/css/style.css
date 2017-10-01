@@ -127,21 +127,76 @@ a.currentlink{
     height: 600px;  
 }
 
-
 .projectcontainer{
-    background-color: purple;
     width:100%;
 }
 
+.tableofcontents{
+    width: 200px;
+    float: left;
+    padding-left: 40px;
+
+}
+
 .projectdescription{
-    background-color: yellowgreen;
     width: 938px;
     margin: auto;
 }
+.backhome{
+    padding-bottom: 20px;
+    padding-top: 60px;
+    display: block;
+    text-transform: uppercase;
+}
 
-.tableofcontents{
-    background-color: orange;
-    width: 200px;
-    float: left;
-    
+li{
+    padding-bottom: 10px;
+    display: none;
+}
+
+.projectbrand{
+    padding-top: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 4px solid #932831;
+    padding-bottom: 20px;
+    width:180px;
+    margin: auto;
+}
+
+.projectchallenge{
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projectsection{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;padding-top: 20px;
+    text-align: center;
+}
+
+h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+    text-align: center;
+}
+
+p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.assets{
+    margin: auto;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
