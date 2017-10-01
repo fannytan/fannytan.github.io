@@ -26,8 +26,6 @@ time, mark, audio, video {
 body {
     color: #1D1D1D; 
     font-family:Futura book, sans-serif;
-    max-width: 938px;
-    margin: auto;
 }
 
 #top{
@@ -48,6 +46,10 @@ body {
 #myjobtitle{
     font-size: 24px;
     padding-top: 6px;
+}
+
+#home{
+    text-decoration: none;
 }
 
 #navigationbar {
@@ -98,7 +100,6 @@ a.currentlink{
 }
 
 .projectinfo{
-    /*background-color: yellow;*/
     position: absolute;
     top:95px;
     width: 100%;
@@ -108,13 +109,12 @@ a.currentlink{
 }
 
 .projecttitle{
-    /*background-color: orange;*/
     display: block;
     padding-bottom: 20px;
 }
 
+
 .projectvalueprop{
-    /*background-color: purple;*/
     display: block;
     font-size: 30px;
 }
@@ -123,4 +123,25 @@ a.currentlink{
     opacity: 1;
 }
 
+.heroshot{
+    height: 600px;  
+}
 
+
+.projectcontainer{
+    background-color: purple;
+    width:100%;
+}
+
+.projectdescription{
+    background-color: yellowgreen;
+    width: 938px;
+    margin: auto;
+}
+
+.tableofcontents{
+    background-color: orange;
+    width: 200px;
+    float: left;
+    
+}
