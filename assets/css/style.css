@@ -24,7 +24,6 @@ time, mark, audio, video {
 }
 
 body {
-    background-color: rgb(254, 254, 254);
     color: #1D1D1D; 
     font-family:Futura book, sans-serif;
     max-width: 938px;
@@ -91,7 +90,6 @@ a.currentlink{
     display: inline-block;
     margin-right: 6px;
     margin-bottom: 12px;
-
 }
 
 .thumbnail{
@@ -102,7 +100,7 @@ a.currentlink{
 .projectinfo{
     /*background-color: yellow;*/
     position: absolute;
-    top:98px;
+    top:95px;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -118,7 +116,7 @@ a.currentlink{
 .projectvalueprop{
     /*background-color: purple;*/
     display: block;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .project:hover .projectinfo{
