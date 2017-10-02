@@ -126,7 +126,7 @@ a.currentlink{
 }
 
 .heroshot{
-    height: 600p    x;  
+    height: 600px;  
 }
 
 .projectcontainer{
@@ -163,7 +163,7 @@ li{
     text-align: center;
     border-bottom: 4px solid #932831;
     padding-bottom: 20px;
-    width:180px;
+    width:150px;
     margin: auto;
 }
 
@@ -208,14 +208,14 @@ p{
 }
 
 .leftcontainer{
-    width: 60%;
+    width: 65%;
     display: inline-block;
     vertical-align: top;
     margin-right: 30px;
 }
 
 .rightcontainer{
-    width:36%;
+    width:30%;
     display: inline-block;
 }
 
