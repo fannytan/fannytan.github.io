@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Regular.eot);src:url(../fonts/AvenirNextLTPro-Regular.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Regular.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Regular.woff) format('woff'),url(../fonts/AvenirNextLTPro-Regular.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular) format('svg');font-weight:100;font-style:normal}@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Bold.eot);src:url(../fonts/AvenirNextLTPro-Bold.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Bold.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Bold.woff) format('woff'),url(/fonts/AvenirNextLTPro-Bold.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold) format('svg');font-weight:900;font-style:normal}@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Demi.eot);src:url(/fonts/AvenirNextLTPro-Demi.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Demi.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Demi.woff) format('woff'),url(/fonts/AvenirNextLTPro-Demi.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi) format('svg');font-weight:500;font-style:normal}
+@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Regular.eot);src:url(../fonts/AvenirNextLTPro-Regular.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Regular.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Regular.woff) format('woff'),url(../fonts/AvenirNextLTPro-Regular.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular) format('svg');font-weight:100;font-style:normal}@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Bold.eot);src:url(../fonts/AvenirNextLTPro-Bold.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Bold.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Bold.woff) format('woff'),url(../fonts/AvenirNextLTPro-Bold.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold) format('svg');font-weight:900;font-style:normal}@font-face{font-family:Avenir;src:url(../fonts/AvenirNextLTPro-Demi.eot);src:url(../fonts/AvenirNextLTPro-Demi.eot?#iefix) format('embedded-opentype'),url(../fonts/AvenirNextLTPro-Demi.woff2) format('woff2'),url(../fonts/AvenirNextLTPro-Demi.woff) format('woff'),url(../fonts/AvenirNextLTPro-Demi.ttf) format('truetype'),url(../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi) format('svg');font-weight:500;font-style:normal}
 
 * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@ body {
     font-family:'Avenir',sans-serif;
 }
 
-#top{
+#top{   
     max-width: 360px;
     margin: auto;
     text-align: center;
