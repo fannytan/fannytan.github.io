@@ -124,7 +124,7 @@ a.currentlink{
 }
 
 .heroshot{
-    height: 600px;  
+    height: 600p    x;  
 }
 
 .projectcontainer{
@@ -176,7 +176,8 @@ li{
 .projectsection{
     font-size: 30px;
     padding-bottom: 20px;
-    text-transform: uppercase;padding-top: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -199,4 +200,47 @@ p{
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#htmlresume{
+    font-size: 18px;
+}
+
+.leftcontainer{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.rightcontainer{
+    width:36%;
+    display: inline-block;
+}
+
+.category{
+    font-size: 24px;
+    padding-bottom: 30px; 
+    text-transform: uppercase;  
+}
+
+.subcategory{
+    font-size: 20px;
+    padding-bottom: 5px; 
+    color:#932831;   
+}
+
+.meta{
+    color: grey;
+    font-size: 18px;
+    padding-bottom: 10px; 
+}
+
+.experiencefield{
+    font-weight: 600;
+}
+
+.detaillink{
+    font-size:18px;
+    padding-bottom: 60px;
+    
 }
