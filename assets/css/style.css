@@ -141,12 +141,12 @@ a.currentlink{
 }
 
 .projectdescription{
-    width: 938px;
+    width: 824px;
     margin: auto;
 }
 .backhome{
     padding-bottom: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
     display: block;
     text-transform: uppercase;
 }
@@ -157,7 +157,7 @@ li{
 }
 
 .projectbrand{
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
