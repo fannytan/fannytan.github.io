@@ -192,7 +192,7 @@ h4{
 }
 
 p{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 16px;
     line-height: 24px;
 }
@@ -221,14 +221,15 @@ p{
 
 .category{
     font-size: 24px;
-    padding-bottom: 30px; 
+    padding-bottom: 20px; 
     text-transform: uppercase;  
 }
 
 .subcategory{
     font-size: 20px;
     padding-bottom: 5px; 
-    color:#932831;   
+    color:#932831;  
+    padding-top: 5px;  
 }
 
 .meta{
@@ -243,7 +244,7 @@ p{
 
 .detaillink{
     font-size:16px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     color:#932831;
-    
+    padding-top: 30px; 
 }
