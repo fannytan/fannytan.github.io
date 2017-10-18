@@ -44,8 +44,8 @@ body {
 #top{   
     width: 100%;
     /*max-width: 360px;
-    margin: auto;*/
-    text-align: center;
+    margin: auto;
+    text-align: center;*/
 }
 
 #myname {
@@ -55,11 +55,13 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 5px;
+    text-align: center;
 }
 
 #myjobtitle{
     font-size: 24px;
     padding-top: 6px;
+    text-align: center;
 }
 
 #home{
@@ -221,6 +223,7 @@ p{
 }
 #htmlresume{
     font-size: 16px;
+    padding-top:25px;
 }
 
 .leftcontainer{
@@ -267,8 +270,20 @@ p{
 
 #introduction {
     width: 62%;
+    padding-bottom: 0px;
 }   
 
 .container{
     margin: auto;
+}
+
+#maincontainer{
+    padding: 15px;
+}
+
+#resumelink{
+    border: 1px solid;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

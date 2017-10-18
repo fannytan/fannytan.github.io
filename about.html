@@ -5,38 +5,54 @@
         <title>Fanny Tan | About</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     </head>
     
     <body>
-        <div id="top">
-            <div id="nameandjob">
-                <a id="home" href="index.html">
-                    <h1 id="myname">Fanny Tan</h1>
-                    <h2 id="myjobtitle">UX Designer</h2>
-                </a>
-                
+        <div class="container" id="top">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-lg-6 col-md-8 col-sm-8" id="nameandjob">
+                        <a id="home" href="index.html">
+                                <h1 id="myname">Fanny Tan</h1>
+                                <h2 id="myjobtitle">UX Designer</h2>
+                            </a>
+                </div>
+                <div class="col"></div> 
+                <div class="w-100"></div>
+                <div class="col"></div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-10">
+                        <div id="navigationbar">
+                                <a class="currentlink" href="index.html">Work</a>
+                                <a href="about.html">About</a>  
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ftan1@id.iit.edu" target="_blank">Contact</a>
+                            </div>
+        
+                </div>
+                <div class="col"></div>
             </div>
-            <div id="navigationbar">
-                <a href="index.html">Work</a>
-                <a class="currentlink" href="about.html">About</a>  
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ftan1@id.iit.edu" target="_blank">Contact</a>
+
+        <div class="container" id="maincontainer">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" id="introduction">
+                    <div class="row">
+                    <h2 class="col-lg-12 col-md-12 col-sm-12 col-12 category">When purpose meets simplicity</h2>
+                    <p class="col-lg-12 col-md-12 col-sm-12 col-12">I strive to create meaningful engagement with digital products and services through empathy and thoughtful refinements.
+                    <br>Currently, I’m pursuing a Master of Design at the IIT Institute of Design, supplementing my Human Resources background, still for the best of people.</p>
+                </div>
             </div>
         </div>
-
-        <div id="maincontainer">
-            <div id="introduction">
-                    <h2 class="category">When purpose meets simplicity</h2>
-                    <p>I strive to create meaningful engagement with digital products and services through empathy and thoughtful refinements. </p> 
-                    <p>Currently, I’m pursuing a Master of Design at the IIT Institute of Design, supplementing my Human Resources background, still for the best of people.</p>
-            </div>
-            
-            <div class="detaillink" id="resumelink">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-5 detaillink" id="resumelink">
                     <a href="assets/fannytanresume.pdf" target="blank">Get pdf resume</a>
             </div>
-            
-            <div id="htmlresume">
-                <div class="leftcontainer">
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12 col-md-12" id="htmlresume">
+                <div class="row">
+                <div class="col-lg-7 col-12 leftcontainer">
                         <div class="category">Experience</div>
                             <div class="subcategory">UX and interaction design intern</div>
                             <div class="meta">Schema Design (Seattle, WA) | June 2017 - Dec. 2017</div>
@@ -101,7 +117,7 @@
                         
                 </div>
                     
-                <div class="rightcontainer">
+                <div class="col-lg-4 rightcontainer">
                     <div>
                         <div class="category">Education</div>
                             <div class="subcategory">Master of Design</div>
@@ -134,8 +150,8 @@
                                 <p>French (native), English (fluent)</p>
                     </div>
                 </div>
-                
-                
+                </div>
+            </div>
                    
                 
             </div>     
