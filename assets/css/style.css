@@ -21,6 +21,12 @@ time, mark, audio, video {
 
 @font-face{font-family:Avenir;src:url(fonts/AvenirNextLTPro-Regular.eot);src:url(fonts/AvenirNextLTPro-Regular.eot?#iefix) format('embedded-opentype'),url(fonts/AvenirNextLTPro-Regular.woff2) format('woff2'),url(fonts/AvenirNextLTPro-Regular.woff) format('woff'),url(fonts/AvenirNextLTPro-Regular.ttf) format('truetype'),url(fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular) format('svg');font-weight:100;font-style:normal}@font-face{font-family:Avenir;src:url(fonts/AvenirNextLTPro-Bold.eot);src:url(fonts/AvenirNextLTPro-Bold.eot?#iefix) format('embedded-opentype'),url(fonts/AvenirNextLTPro-Bold.woff2) format('woff2'),url(fonts/AvenirNextLTPro-Bold.woff) format('woff'),url(fonts/AvenirNextLTPro-Bold.ttf) format('truetype'),url(fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold) format('svg');font-weight:900;font-style:normal}@font-face{font-family:Avenir;src:url(fonts/AvenirNextLTPro-Demi.eot);src:url(fonts/AvenirNextLTPro-Demi.eot?#iefix) format('embedded-opentype'),url(fonts/AvenirNextLTPro-Demi.woff2) format('woff2'),url(fonts/AvenirNextLTPro-Demi.woff) format('woff'),url(fonts/AvenirNextLTPro-Demi.ttf) format('truetype'),url(fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi) format('svg');font-weight:500;font-style:normal}
 
+@font-face {
+    font-family: 'DIN-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DIN-Regular'), url('DINR____.woff') format('woff');
+    }
 * {
     box-sizing: border-box;
 }
@@ -29,14 +35,16 @@ time, mark, audio, video {
 
 body {
     color: #1D1D1D; 
-    font-family:'Proxima-nova','Avenir',sans-serif;
+    font-family:'DIN-Regular','Proxima-nova','Avenir',sans-serif;
     font-style: normal;
     font-weight: 100;
+  
 }
 
 #top{   
-    max-width: 360px;
-    margin: auto;
+    width: 100%;
+    /*max-width: 360px;
+    margin: auto;*/
     text-align: center;
 }
 
@@ -103,6 +111,8 @@ a.currentlink{
 .thumbnail{
     width: 100%;
     height: 272px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .projectinfo{
@@ -257,4 +267,8 @@ p{
 
 #introduction {
     width: 62%;
+}   
+
+.container{
+    margin: auto;
 }
