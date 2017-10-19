@@ -280,6 +280,9 @@ p{
 
 #maincontainer{
     padding: 15px;
+    font-family:'DIN-Regular','Proxima-nova','Avenir',sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
 #resumelink{
